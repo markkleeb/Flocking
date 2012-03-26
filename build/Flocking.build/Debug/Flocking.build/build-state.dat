@@ -1,0 +1,2838 @@
+TFlocking
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cProcessPCH++ /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/testApp.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvContourFinder.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvColorImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvHaarFinder.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxKinect.o /Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Path.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Blob.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/main.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Boid.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvFloatImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvShortImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/cameras.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/core.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/registration.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/tilt.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/usb_libusb10.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/totalBlobs.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cLd /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/MacOS/FlockingDebug normal i386
+cPhaseScriptExecution "Run Script" /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+cPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/FlockingDebug.app/Contents/Frameworks/GLUT.framework
+cTouch /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c
+c000000004F498504000000000000B26D
+t1330218244
+s45677
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i"freenect_internal.h"
+i"registration.h"
+i"cameras.h"
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.h
+c000000004F4985040000000000000599
+t1330218244
+s1433
+i"libfreenect.h"
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c
+c000000004F49850400000000000014A9
+t1330218244
+s5289
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdarg.h>
+i<unistd.h>
+i"freenect_internal.h"
+i"registration.h"
+i"cameras.h"
+i"loader.h"
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/freenect_internal.h
+c000000004F4985040000000000001786
+t1330218244
+s6022
+i<stdint.h>
+i"libfreenect.h"
+i"libfreenect-registration.h"
+i"libfreenect-audio.h"
+i"usb_libusb10.h"
+i<stdarg.h>
+i<stdio.h>
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010/freenect.lib
+c000000004F4985040000000000002B8E
+t1330218244
+s11150
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/libfreenect-registration.h
+c000000004F4985040000000000000E63
+t1330218244
+s3683
+i<libfreenect.h>
+i<stdint.h>
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/libfreenect.h
+c000000004F4985040000000000005201
+t1330218244
+s20993
+i<stdint.h>
+i<libusb-1.0/libusb.h>
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c
+c000000004F49850400000000000034FF
+t1330218244
+s13567
+i<libfreenect.h>
+i<freenect_internal.h>
+i"registration.h"
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+i<math.h>
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.h
+c000000004F49850400000000000005D3
+t1330218244
+s1491
+i"libfreenect.h"
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c
+c000000004F4985040000000000000D9C
+t1330218244
+s3484
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i<math.h>
+i"freenect_internal.h"
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c
+c000000004F4985040000000000002C22
+t1330218244
+s11298
+i<stdio.h>
+i<stdbool.h>
+i<stdlib.h>
+i<string.h>
+i<libusb-1.0/libusb.h>
+i"freenect_internal.h"
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.h
+c000000004F4985040000000000000CBF
+t1330218244
+s3263
+i<libusb-1.0/libusb.h>
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libusb/osx/include/libusb-1.0/libusb.h
+c000000004F498504000000000000AFE5
+t1330218244
+s45029
+i<stdint.h>
+i<sys/types.h>
+i<time.h>
+i<limits.h>
+i<sys/time.h>
+i<windows.h>
+
+N/Developer/openFrameworks/addons/ofxKinect/libs/libusb/osx/libs/usb-1.0.a
+c000000004F498504000000000003DF1C
+t1330218244
+s253724
+
+N/Developer/openFrameworks/addons/ofxKinect/src/ofxBase3DVideo.h
+c000000004F49850500000000000006DE
+t1330218245
+s1758
+
+N/Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp
+c000000004F4985050000000000004F1B
+t1330218245
+s20251
+i"ofxKinect.h"
+i"ofMain.h"
+i"libfreenect-registration.h"
+
+N/Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.h
+c000000004F49850500000000000028D6
+t1330218245
+s10454
+i"ofMain.h"
+i"libfreenect.h"
+i"ofxBase3DVideo.h"
+i<libusb.h>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cv.h
+c000000004DDADDC40000000000000D55
+t1306189252
+s3413
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/video/tracking.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/flann/flann.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/legacy/compat.hpp"
+i"opencv2/core/internal.hpp"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.h
+c000000004DDADDC400000000000009D6
+t1306189252
+s2518
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d/calib3d.hpp
+c000000004D2F2382000000000000938A
+t1294934914
+s37770
+i"opencv2/core/core.hpp"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp
+c000000004E19BFA000000000000272CD
+t1310310304
+s160461
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h
+c000000004D455E0800000000000132CE
+t1296391688
+s78542
+i"opencv2/core/types_c.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/eigen.hpp
+c000000004D2F2382000000000000193E
+t1294934914
+s6462
+i"cxcore.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/internal.hpp
+c000000004D32582E00000000000079CC
+t1295145006
+s31180
+i<vector>
+i<windows.h>
+i<pthread.h>
+i<sys/mman.h>
+i"ipp.h"
+i"emmintrin.h"
+i"pmmintrin.h"
+i"tbb/tbb_stddef.h"
+i"tbb/tbb.h"
+i<Eigen/Core>
+i"opencv2/core/eigen.hpp"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.hpp
+c000000004D32582E000000000001282B
+t1295145006
+s75819
+i<limits.h>
+i<string.h>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp
+c000000004D32582E000000000001C7D0
+t1295145006
+s116688
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+i<limits>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h
+c000000004D32582E000000000000DD40
+t1295145006
+s56640
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/version.hpp
+c000000004D2F238200000000000009EA
+t1294934914
+s2538
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/features2d.hpp
+c000000004D2F2382000000000001B707
+t1294934914
+s112391
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann.hpp"
+i<limits>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/all_indices.h
+c000000004D455E080000000000000B0D
+t1296391688
+s2829
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/kdtree_index.h"
+i"opencv2/flann/kmeans_index.h"
+i"opencv2/flann/composite_index.h"
+i"opencv2/flann/linear_index.h"
+i"opencv2/flann/autotuned_index.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/allocator.h
+c000000004D2F238200000000000015E5
+t1294934914
+s5605
+i<stdlib.h>
+i<stdio.h>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/autotuned_index.h
+c000000004D2F2382000000000000548E
+t1294934914
+s21646
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/ground_truth.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/sampling.h"
+i"opencv2/flann/all_indices.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/composite_index.h
+c000000004D2F23820000000000001310
+t1294934914
+s4880
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h
+c000000004D2F2382000000000000291E
+t1294934914
+s10526
+i<cmath>
+i"opencv2/flann/general.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann.hpp
+c000000004D2F23820000000000001DF2
+t1294934914
+s7666
+i"opencv2/flann/flann_base.hpp"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp
+c000000004D2F23820000000000001CD6
+t1294934914
+s7382
+i<vector>
+i<string>
+i<cassert>
+i<cstdio>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/object_factory.h"
+i"opencv2/flann/saving.h"
+i"opencv2/flann/all_indices.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h
+c000000004D2F23820000000000000DFD
+t1294934914
+s3581
+i<stdexcept>
+i<cassert>
+i"opencv2/flann/object_factory.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/ground_truth.h
+c000000004D2F23820000000000000C0F
+t1294934914
+s3087
+i"opencv2/flann/dist.h"
+i"opencv2/flann/matrix.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/heap.h
+c000000004D2F238200000000000012F4
+t1294934914
+s4852
+i<algorithm>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h
+c000000004D2F238200000000000025BB
+t1294934914
+s9659
+i<cstring>
+i<cassert>
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/logger.h"
+i"opencv2/flann/timer.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_index.h
+c000000004D2F238200000000000041A9
+t1294934914
+s16809
+i<algorithm>
+i<map>
+i<cassert>
+i<cstring>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+i"opencv2/flann/saving.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h
+c000000004D2F238200000000000076BE
+t1294934914
+s30398
+i<algorithm>
+i<string>
+i<map>
+i<cassert>
+i<limits>
+i<cmath>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/linear_index.h
+c000000004D2F23820000000000000C7F
+t1294934914
+s3199
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/logger.h
+c000000004D2F23820000000000000A84
+t1294934914
+s2692
+i<cstdio>
+i<stdarg.h>
+i"opencv2/flann/general.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/matrix.h
+c000000004D2F23820000000000000BAE
+t1294934914
+s2990
+i<stdio.h>
+i"opencv2/flann/general.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h
+c000000004D2F23820000000000000B6A
+t1294934914
+s2922
+i<string>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/object_factory.h
+c000000004D2F23820000000000000BA3
+t1294934914
+s2979
+i"opencv2/core/types_c.h"
+i<map>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h
+c000000004D2F23820000000000000DF2
+t1294934914
+s3570
+i<algorithm>
+i<cstdlib>
+i<cassert>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h
+c000000004D2F23820000000000001A7E
+t1294934914
+s6782
+i<algorithm>
+i<limits>
+i<vector>
+i"opencv2/flann/dist.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/sampling.h
+c000000004D2F23820000000000000C04
+t1294934914
+s3076
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/random.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/saving.h
+c000000004D2F23820000000000000FC5
+t1294934914
+s4037
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i<cstdio>
+i<cstring>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h
+c000000004D2F23820000000000000997
+t1294934914
+s2455
+i<time.h>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc.hpp
+c000000004D2F2382000000000000A768
+t1294934914
+s42856
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc_c.h
+c000000004D2F23820000000000009012
+t1294934914
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/types_c.h
+c000000004D2F23820000000000003352
+t1294934914
+s13138
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/compat.hpp
+c000000004D2F238200000000000064DF
+t1294934914
+s25823
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+i<math.h>
+i<string.h>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect.hpp
+c000000004D2F23820000000000003CC1
+t1294934914
+s15553
+i"opencv2/core/core.hpp"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp
+c000000004D2F238200000000000040D9
+t1294934914
+s16601
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a
+c000000004DE299800000000000C4BE34
+t1306696064
+s12893748
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvBlob.h
+c000000004DDADDCA000000000000054A
+t1306189258
+s1354
+i"ofxCvConstants.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp
+c000000004DDADDCA0000000000002F42
+t1306189258
+s12098
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.h
+c000000004DDADDCA0000000000001ABA
+t1306189258
+s6842
+i"ofxCvImage.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvConstants.h
+c000000004DDADDCA00000000000000CE
+t1306189258
+s206
+i"cv.h"
+i<vector>
+i"ofMain.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp
+c000000004F57D8C10000000000001D5B
+t1331157185
+s7515
+i"ofxCvContourFinder.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.h
+c000000004F5552AC0000000000000855
+t1330991788
+s2133
+i"ofxCvConstants.h"
+i"ofxCvBlob.h"
+i"ofxCvGrayscaleImage.h"
+i<algorithm>
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp
+c000000004DDADDCA000000000000409A
+t1306189258
+s16538
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.h
+c000000004DDADDCA0000000000001DEB
+t1306189258
+s7659
+i"ofxCvImage.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp
+c000000004E264F140000000000002B0A
+t1311133460
+s11018
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.h
+c000000004DDADDCA0000000000001C83
+t1306189258
+s7299
+i"ofxCvImage.h"
+i"ofxCvBlob.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp
+c000000004E1C4360000000000000185A
+t1310475104
+s6234
+i"ofxCvHaarFinder.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.h
+c000000004E1C43600000000000000693
+t1310475104
+s1683
+i"ofMain.h"
+i"ofxOpenCv.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp
+c000000004DDADDCA0000000000005CC6
+t1306189258
+s23750
+i"ofxCvImage.h"
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvBlob.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.h
+c000000004DDADDCA0000000000001A99
+t1306189258
+s6809
+i"ofxCvConstants.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp
+c000000004DDADDCA0000000000002EED
+t1306189258
+s12013
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.h
+c000000004DDADDCA00000000000018E1
+t1306189258
+s6369
+i"ofxCvImage.h"
+
+N/Developer/openFrameworks/addons/ofxOpenCv/src/ofxOpenCv.h
+c000000004DDADDCA000000000000017E
+t1306189258
+s382
+i"ofxCvConstants.h"
+i"ofxCvImage.h"
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+i"ofxCvContourFinder.h"
+i"ofxCvHaarFinder.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx/GLUT.framework
+c000000004F1F25CF00000000000000CC
+t1327441359
+s204
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c000000004D3258300000000000092A98
+t1295145008
+s600728
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app
+t1332784981
+s102
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/Frameworks/GLUT.framework
+t1332359997
+s204
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/Info.plist
+t1332354881
+s1000
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/MacOS/FlockingDebug
+t1332784981
+s6569920
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/PkgInfo
+t1332354881
+s8
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Blob.o
+t1332784368
+s139520
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Boid.o
+t1332784038
+s184372
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/FlockingDebug.LinkFileList
+c000000004F6E33F8000000000000097E
+t1332622328
+s2430
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Mouse.o
+t1332359981
+s22396
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Path.o
+t1332359983
+s57484
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/cameras.o
+t1332354900
+s51572
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/core.o
+t1332354900
+s13292
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/main.o
+t1332784038
+s166076
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvColorImage.o
+t1332354991
+s117120
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvContourFinder.o
+t1332354993
+s198284
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvFloatImage.o
+t1332359976
+s125052
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvGrayscaleImage.o
+t1332359975
+s113472
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvHaarFinder.o
+t1332359976
+s248840
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvImage.o
+t1332359976
+s150204
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvShortImage.o
+t1332359976
+s115428
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxKinect.o
+t1332359984
+s191236
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/registration.o
+t1332354900
+s20292
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/testApp.o
+t1332784368
+s204672
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/tilt.o
+t1332354900
+s10692
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/totalBlobs.o
+t1332784035
+s168448
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/usb_libusb10.o
+t1332354900
+s18328
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c000000004F6A1F410000000000000114
+t1332354881
+s276
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.cpp
+c000000004F70ACEE00000000000004A1
+t1332784366
+s1185
+i<iostream>
+i"Blob.h"
+i"ofxCvBlob.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.h
+c000000004F709B9D00000000000001C5
+t1332779933
+s453
+i"ofMain.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.cpp
+c000000004F6E50800000000000001E9D
+t1332629632
+s7837
+i"Boid.h"
+i"Path.h"
+i"Blob.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.h
+c000000004F6E3D3700000000000004D8
+t1332624695
+s1240
+i"ofMain.h"
+i<list>
+i"ofxCvBlob.h"
+i"ofxCvContourFinder.h"
+i"ofxOpenCv.h"
+i"ofxKinect.h"
+i"Path.h"
+i"Blob.h"
+i"totalBlobs.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/Mouse.cpp
+c000000004F6A1FEF00000000000000A0
+t1332355055
+s160
+i<iostream>
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.cpp
+c000000004F56E12300000000000005F4
+t1331093795
+s1524
+i<iostream>
+i"Path.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.h
+c000000004F55960A000000000000034F
+t1331009034
+s847
+i"ofMain.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/main.cpp
+c000000004F6A337600000000000001AB
+t1332360054
+s427
+i"ofMain.h"
+i"testApp.h"
+i"ofAppGlutWindow.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp
+c000000004F70AFA30000000000000EAC
+t1332785059
+s3756
+i"testApp.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.h
+c000000004F70AB9F00000000000003E9
+t1332784031
+s1001
+i"ofMain.h"
+i"Boid.h"
+i"ofxOpenCv.h"
+i"ofxKinect.h"
+i"Path.h"
+i"Blob.h"
+i"totalBlobs.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.cpp
+c000000004F70AB9E0000000000000170
+t1332784030
+s368
+i<iostream>
+i"totalBlobs.h"
+
+N/Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.h
+c000000004F70AB9E000000000000016C
+t1332784030
+s364
+i"Blob.h"
+i<algorithm>
+
+N/Developer/openFrameworks/libs/cairo/include/cairo/cairo-deprecated.h
+c000000004D55801800000000000021FA
+t1297448984
+s8698
+
+N/Developer/openFrameworks/libs/cairo/include/cairo/cairo-features.h
+c000000004D558018000000000000031D
+t1297448984
+s797
+
+N/Developer/openFrameworks/libs/cairo/include/cairo/cairo-pdf.h
+c000000004D5580180000000000000C24
+t1297448984
+s3108
+i"cairo.h"
+
+N/Developer/openFrameworks/libs/cairo/include/cairo/cairo-svg.h
+c000000004D5580180000000000000ADD
+t1297448984
+s2781
+i"cairo.h"
+
+N/Developer/openFrameworks/libs/cairo/include/cairo/cairo-version.h
+c000000004D5580180000000000000094
+t1297448984
+s148
+
+N/Developer/openFrameworks/libs/cairo/include/cairo/cairo.h
+c000000004D5580180000000000016BCE
+t1297448984
+s93134
+i"cairo-version.h"
+i"cairo-features.h"
+i"cairo-deprecated.h"
+
+N/Developer/openFrameworks/libs/fmodex/include/fmod.h
+c000000004D3258300000000000028E68
+t1295145008
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Developer/openFrameworks/libs/fmodex/include/fmod_codec.h
+c000000004B1F8992000000000000334A
+t1260358034
+s13130
+
+N/Developer/openFrameworks/libs/fmodex/include/fmod_dsp.h
+c000000004B1F8992000000000000892F
+t1260358034
+s35119
+
+N/Developer/openFrameworks/libs/fmodex/include/fmod_errors.h
+c000000004B1F89920000000000003408
+t1260358034
+s13320
+i"fmod.h"
+
+N/Developer/openFrameworks/libs/fmodex/include/fmod_memoryinfo.h
+c000000004B1F89920000000000003C95
+t1260358034
+s15509
+
+N/Developer/openFrameworks/libs/glew/include/GL/glew.h
+c000000004D455E0A00000000000C1916
+t1296391690
+s792854
+i<stddef.h>
+i<inttypes.h>
+i<stdint.h>
+i<inttypes.h>
+i<OpenGL/glu.h>
+i<GL/glu.h>
+
+N/Developer/openFrameworks/libs/openFrameworks/3d/of3dUtils.h
+c000000004DBAFE04000000000000002B
+t1304100356
+s43
+
+N/Developer/openFrameworks/libs/openFrameworks/3d/ofCamera.h
+c000000004DF297A40000000000000858
+t1307744164
+s2136
+i"ofRectangle.h"
+i"ofAppRunner.h"
+i"ofNode.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h
+c000000004D846164000000000000053C
+t1300521316
+s1340
+i"ofCamera.h"
+i"ofEvents.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/3d/ofMesh.h
+c000000004E15DFD600000000000010DD
+t1310056406
+s4317
+i"ofVec3f.h"
+i"ofVec2f.h"
+i"ofColor.h"
+i"ofUtils.h"
+i"ofConstants.h"
+i"ofGLUtils.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/3d/ofNode.h
+c000000004D597A7C000000000000143C
+t1297709692
+s5180
+i"ofVectorMath.h"
+i"of3dUtils.h"
+i"ofGraphics.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004E0F2BC00000000000000590
+t1309617088
+s1424
+i"ofPoint.h"
+i"ofTypes.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004E0F2BC000000000000006A5
+t1309617088
+s1701
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"ofEvents.h"
+i"ofTypes.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/app/ofAppRunner.h
+c000000004DD7B3E8000000000000075D
+t1305981928
+s1885
+i"ofConstants.h"
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofTypes.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/app/ofBaseApp.h
+c000000004DD7B3E80000000000000377
+t1305981928
+s887
+i"ofPoint.h"
+i"ofEvents.h"
+i"ofBaseTypes.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/communication/ofArduino.h
+c000000004D8461640000000000004200
+t1300521316
+s16896
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/communication/ofSerial.h
+c000000004DB2F58A0000000000000DA9
+t1303573898
+s3497
+i"ofConstants.h"
+i"ofTypes.h"
+i<termios.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+
+N/Developer/openFrameworks/libs/openFrameworks/events/ofEventUtils.h
+c000000004DDA87260000000000000DAD
+t1306167078
+s3501
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+i<stdio.h>
+i<stdlib.h>
+
+N/Developer/openFrameworks/libs/openFrameworks/events/ofEvents.h
+c000000004DB071120000000000001B97
+t1303408914
+s7063
+i"ofConstants.h"
+i"ofPoint.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofFbo.h
+c000000004E283BD60000000000000E23
+t1311259606
+s3619
+i"ofTexture.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h
+c000000004E19BFA00000000000001109
+t1310310304
+s4361
+i"ofBaseTypes.h"
+i"ofPolyline.h"
+i<stack>
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h
+c000000004E0E00180000000000000B79
+t1309540376
+s2937
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofLight.h
+c000000004E0F6A46000000000000084C
+t1309633094
+s2124
+i"ofNode.h"
+i"ofColor.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofMaterial.h
+c000000004E0F6A460000000000000555
+t1309633094
+s1365
+i"ofColor.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofShader.h
+c000000004E0E5BE00000000000000F82
+t1309563872
+s3970
+i"ofConstants.h"
+i"ofBaseTypes.h"
+i"ofTexture.h"
+i<map>
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofTexture.h
+c000000004E264F1400000000000010D0
+t1311133460
+s4304
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofBaseTypes.h"
+i"ofConstants.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofVbo.h
+c000000004E0F6A460000000000000A19
+t1309633094
+s2585
+i"ofConstants.h"
+i"ofVec3f.h"
+i"ofColor.h"
+i"ofUtils.h"
+i"ofMesh.h"
+i"ofGLUtils.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h
+c000000004DF297A40000000000000114
+t1307744164
+s276
+i"ofMesh.h"
+i"ofVbo.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h
+c000000004E25C43000000000000012BF
+t1311097904
+s4799
+i"cairo-features.h"
+i"cairo-pdf.h"
+i"cairo-svg.h"
+i"cairo.h"
+i<deque>
+i<stack>
+i"ofMatrix4x4.h"
+i"ofBaseTypes.h"
+i"ofPath.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h
+c000000004E1340520000000000001D95
+t1309884498
+s7573
+i"ofConstants.h"
+i"ofColor.h"
+i"ofPoint.h"
+i"ofMatrix4x4.h"
+i"ofRectangle.h"
+i"ofTypes.h"
+i"ofBaseTypes.h"
+i"ofGLRenderer.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofImage.h
+c000000004E15DFD80000000000002014
+t1310056408
+s8212
+i"ofFileUtils.h"
+i"ofTexture.h"
+i"ofPixels.h"
+i"ofBaseTypes.h"
+i"ofConstants.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofPath.h
+c000000004E19BFA0000000000000115A
+t1310310304
+s4442
+i"ofConstants.h"
+i"ofPoint.h"
+i"ofColor.h"
+i"ofPolyline.h"
+i"ofBaseTypes.h"
+i"ofMesh.h"
+i"ofTessellator.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofPixels.h
+c000000004E1622C400000000000012C3
+t1310073540
+s4803
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofColor.h"
+i"ofMath.h"
+i<limits>
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h
+c000000004F52B0B1000000000000100B
+t1330819249
+s4107
+i"ofPoint.h"
+i"ofConstants.h"
+i<deque>
+i"ofRectangle.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h
+c000000004E19BFA000000000000027C6
+t1310310304
+s10182
+i"ofBaseTypes.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h
+c000000004DDA876A0000000000000459
+t1306167146
+s1113
+i"ofConstants.h"
+i"ofMesh.h"
+i"ofTypes.h"
+i"ofPolyline.h"
+i"tesselator.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004E2319EC00000000000009F5
+t1310923244
+s2549
+i<vector>
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofConstants.h"
+i"ofPath.h"
+i"ofTexture.h"
+i"ofMesh.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/math/ofMath.h
+c000000004E19BFA00000000000000B3D
+t1310310304
+s2877
+i"ofPoint.h"
+i"ofConstants.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h
+c000000004D5575B80000000000000A4C
+t1297446328
+s2636
+i"ofConstants.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h
+c000000004D8461640000000000006D64
+t1300521316
+s28004
+i"ofVec3f.h"
+i"ofVec4f.h"
+i"ofQuaternion.h"
+i"ofConstants.h"
+i<cmath>
+
+N/Developer/openFrameworks/libs/openFrameworks/math/ofQuaternion.h
+c000000004D84616400000000000033BD
+t1300521316
+s13245
+i"ofConstants.h"
+i"ofVec3f.h"
+i"ofVec4f.h"
+i<cmath>
+
+N/Developer/openFrameworks/libs/openFrameworks/math/ofVec2f.h
+c000000004D922FBC000000000000407D
+t1301426108
+s16509
+i"ofConstants.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/math/ofVec3f.h
+c000000004D84616400000000000061A8
+t1300521316
+s25000
+i"ofVec2f.h"
+i"ofVec4f.h"
+i"ofConstants.h"
+i<cmath>
+i<iostream>
+
+N/Developer/openFrameworks/libs/openFrameworks/math/ofVec4f.h
+c000000004D5575B80000000000002EC3
+t1297446328
+s11971
+i"ofConstants.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/math/ofVectorMath.h
+c000000004D2F23840000000000000099
+t1294934916
+s153
+i"ofVec2f.h"
+i"ofVec3f.h"
+i"ofVec4f.h"
+i"ofMatrix3x3.h"
+i"ofMatrix4x4.h"
+i"ofQuaternion.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/ofMain.h
+c000000004E283BD60000000000000643
+t1311259606
+s1603
+i"ofConstants.h"
+i"ofFileUtils.h"
+i"ofLog.h"
+i"ofSystemUtils.h"
+i"ofThread.h"
+i"ofURLFileLoader.h"
+i"ofUtils.h"
+i"ofBaseTypes.h"
+i"ofTypes.h"
+i"ofColor.h"
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofMath.h"
+i"ofVectorMath.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofFbo.h"
+i"ofGLRenderer.h"
+i"ofGLUtils.h"
+i"ofLight.h"
+i"ofMaterial.h"
+i"ofShader.h"
+i"ofTexture.h"
+i"ofVbo.h"
+i"ofVboMesh.h"
+i"ofCairoRenderer.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofPath.h"
+i"ofPixels.h"
+i"ofPolyline.h"
+i"ofRendererCollection.h"
+i"ofTessellator.h"
+i"ofTrueTypeFont.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+i"of3dUtils.h"
+i"ofCamera.h"
+i"ofEasyCam.h"
+i"ofMesh.h"
+i"ofNode.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/sound/ofBaseSoundPlayer.h
+c000000004D5575B80000000000000366
+t1297446328
+s870
+i"ofConstants.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/sound/ofBaseSoundStream.h
+c000000004D8605E200000000000002D4
+t1300628962
+s724
+i"ofConstants.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/sound/ofFmodSoundPlayer.h
+c000000004E283BD600000000000006B8
+t1311259606
+s1720
+i"ofConstants.h"
+i"ofBaseSoundPlayer.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h
+c000000004E283BD60000000000000E5E
+t1311259606
+s3678
+i"ofConstants.h"
+i"ofBaseSoundPlayer.h"
+i"ofEvents.h"
+i"ofThread.h"
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AL/al.h>
+i<AL/alc.h>
+i"kiss_fft.h"
+i"kiss_fftr.h"
+i<sndfile.h>
+i<mpg123.h>
+
+N/Developer/openFrameworks/libs/openFrameworks/sound/ofPASoundStream.h
+c000000004E25C430000000000000052D
+t1311097904
+s1325
+i"ofConstants.h"
+i"ofBaseSoundStream.h"
+i"ofTypes.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/sound/ofRtAudioSoundStream.h
+c000000004E283BD600000000000004A6
+t1311259606
+s1190
+i"ofConstants.h"
+i"ofBaseSoundStream.h"
+i"ofTypes.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004E283BD60000000000000637
+t1311259606
+s1591
+i"ofConstants.h"
+i"ofTypes.h"
+i"ofBaseTypes.h"
+i"ofBaseSoundPlayer.h"
+i"ofQuicktimeSoundPlayer.h"
+i"ofFmodSoundPlayer.h"
+i"ofOpenALSoundPlayer.h"
+i"ofxOpenALSoundPlayer.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h
+c000000004E2851A4000000000000067D
+t1311265188
+s1661
+i"ofConstants.h"
+i"ofBaseTypes.h"
+i"ofBaseApp.h"
+i"ofTypes.h"
+i"ofBaseSoundStream.h"
+i"ofRtAudioSoundStream.h"
+i"ofPASoundStream.h"
+i"ofxAndroidSoundStream.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/types/ofBaseTypes.h
+c000000004E19BFA00000000000002EFE
+t1310310304
+s12030
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofConstants.h"
+i"ofColor.h"
+i"ofMesh.h"
+i"ofPixels.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/types/ofColor.h
+c000000004E0F6A4600000000000013FD
+t1309633094
+s5117
+i<limits>
+i"ofMath.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/types/ofPoint.h
+c000000004D846164000000000000003D
+t1300521316
+s61
+i"ofVec3f.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/types/ofRectangle.h
+c000000004DB06E6E0000000000000454
+t1303408238
+s1108
+i"ofPoint.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/types/ofTypes.h
+c000000004E0F6A7A0000000000000D27
+t1309633146
+s3367
+i"ofConstants.h"
+i"ofColor.h"
+i<memory>
+i<tr1/memory>
+i"Poco/Mutex.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/utils/ofConstants.h
+c000000004E2851A400000000000034DF
+t1311265188
+s13535
+i<TargetConditionals.h>
+i<windows.h>
+i"GL\glew.h"
+i"GL\wglew.h"
+i"glu.h"
+i<unistd.h>
+i"GL/glew.h"
+i<OpenGL/gl.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i<GL/glew.h>
+i<GL/gl.h>
+i<GL/glx.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<unistd.h>
+i<GLES/gl.h>
+i<GLES/glext.h>
+i"glu.h"
+i"tesselator.h"
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Developer/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h
+c000000004E25C4300000000000001D56
+t1311097904
+s7510
+i"ofConstants.h"
+i"Poco/File.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/utils/ofLog.h
+c000000004E19BFA000000000000014B0
+t1310310304
+s5296
+i"ofConstants.h"
+i"ofFileUtils.h"
+i"ofTypes.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h
+c000000004DD7B3E200000000000001AC
+t1305981922
+s428
+
+N/Developer/openFrameworks/libs/openFrameworks/utils/ofThread.h
+c000000004D325832000000000000050C
+t1295145010
+s1292
+i"ofConstants.h"
+i"ofTypes.h"
+i<process.h>
+i<pthread.h>
+
+N/Developer/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h
+c000000004E283BD600000000000008C4
+t1311259606
+s2244
+i<deque>
+i<queue>
+i"ofThread.h"
+i"ofEvents.h"
+i"ofFileUtils.h"
+i"Poco/Condition.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/utils/ofUtils.h
+c000000004E283BD60000000000001245
+t1311259606
+s4677
+i"ofConstants.h"
+i<bitset>
+i"ofLog.h"
+i<shellapi.h>
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofDirectShowGrabber.h
+c000000004D55801A0000000000000475
+t1297448986
+s1141
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+i"videoInput.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofGstUtils.h
+c000000004DB06E6E0000000000000FA6
+t1303408238
+s4006
+i"ofConstants.h"
+i<gst/gst.h>
+i<gst/app/gstappsink.h>
+i"ofConstants.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+i"ofTypes.h"
+i"ofEvents.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h
+c000000004D55801A0000000000000542
+t1297448986
+s1346
+i"ofGstUtils.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h
+c000000004DF297A4000000000000059F
+t1307744164
+s1439
+i"ofGstUtils.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofQtUtils.h
+c000000004D55801A00000000000006B5
+t1297448986
+s1717
+i"ofConstants.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofQuickTimeGrabber.h
+c000000004D5829EC0000000000000648
+t1297623532
+s1608
+i"ofConstants.h"
+i"ofQtUtils.h"
+i"ofTexture.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofQuickTimePlayer.h
+c000000004D55801A00000000000008B8
+t1297448986
+s2232
+i"ofConstants.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+i"ofQtUtils.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004E19BF3C00000000000009ED
+t1310310204
+s2541
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+i"ofTypes.h"
+i"ofiPhoneVideoGrabber.h"
+i"ofQuickTimeGrabber.h"
+i"ofDirectShowGrabber.h"
+i"ofGstVideoGrabber.h"
+i"ofxAndroidVideoGrabber.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004E19BF3C0000000000000ABD
+t1310310204
+s2749
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofBaseTypes.h"
+i"ofTypes.h"
+i"ofGstVideoPlayer.h"
+i"ofQuickTimePlayer.h"
+i"ofiPhoneVideoPlayer.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofiPhoneVideoGrabber.h
+c000000004E19BF3C000000000000032C
+t1310310204
+s812
+i"ofVideoGrabber.h"
+
+N/Developer/openFrameworks/libs/openFrameworks/video/ofiPhoneVideoPlayer.h
+c000000004E19BF3C0000000000000612
+t1310310204
+s1554
+i"ofPixels.h"
+i"ofBaseTypes.h"
+i"ofTexture.h"
+i"ofVideoPlayer.h"
+
+N/Developer/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c000000004F55108100000000016FE6B0
+t1330974849
+s24110768
+
+N/Developer/openFrameworks/libs/poco/include/Poco/AbstractDelegate.h
+c000000004D2C9F7A0000000000000B59
+t1294770042
+s2905
+i"Poco/Foundation.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/AbstractEvent.h
+c000000004D2C9F7A0000000000002D7C
+t1294770042
+s11644
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/ActiveMethod.h
+c000000004D2C9F7A0000000000001C64
+t1294770042
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/ActiveResult.h
+c000000004D2C9F7A0000000000002E66
+t1294770042
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/ActiveRunnable.h
+c000000004D2C9F7A0000000000001785
+t1294770042
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/ActiveStarter.h
+c000000004D2C9F7A0000000000000927
+t1294770042
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/AtomicCounter.h
+c000000004D8461640000000000001D13
+t1300521316
+s7443
+i"Poco/Foundation.h"
+i"Poco/UnWindows.h"
+i<libkern/OSAtomic.h>
+i"Poco/Mutex.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/AutoPtr.h
+c000000004D2C9F7A0000000000001E0C
+t1294770042
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Bugcheck.h
+c000000004D2C9F7A00000000000014A9
+t1294770042
+s5289
+i"Poco/Foundation.h"
+i<string>
+i<iostream>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/CompareFunctions.h
+c000000004D2C9F7A00000000000007EC
+t1294770042
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Condition.h
+c000000004D2C9F7A0000000000001236
+t1294770042
+s4662
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/ScopedUnlock.h"
+i"Poco/Event.h"
+i"Poco/Exception.h"
+i<deque>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Config.h
+c000000004D2C9F7A0000000000000E22
+t1294770042
+s3618
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Delegate.h
+c000000004D2C9F7A0000000000001828
+t1294770042
+s6184
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Event.h
+c000000004D2C9F7A0000000000000E21
+t1294770042
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Event_POSIX.h
+c000000004D2C9F7A0000000000000A91
+t1294770042
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Event_WIN32.h
+c000000004D5575B8000000000000093F
+t1297446328
+s2367
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Exception.h
+c000000004D5575B8000000000000283D
+t1297446328
+s10301
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Expire.h
+c000000004D2C9F7A0000000000000D0D
+t1294770042
+s3341
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/FIFOEvent.h
+c000000004D2C9F7A0000000000000B15
+t1294770042
+s2837
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/FIFOStrategy.h
+c000000004D2C9F7A0000000000001116
+t1294770042
+s4374
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/File.h
+c000000004D455E0A0000000000001F91
+t1296391690
+s8081
+i"Poco/Foundation.h"
+i"Poco/Timestamp.h"
+i<vector>
+i"File_WINCE.h"
+i"Poco/File_WIN32U.h"
+i"Poco/File_WIN32.h"
+i"Poco/File_UNIX.h"
+i"Poco/File_VMS.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/File_UNIX.h
+c000000004D2C9F7A0000000000000BC1
+t1294770042
+s3009
+i"Poco/Foundation.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/File_VMS.h
+c000000004D2C9F7A0000000000000BBC
+t1294770042
+s3004
+i"Poco/Foundation.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/File_WIN32.h
+c000000004D2C9F7A0000000000000C0C
+t1294770042
+s3084
+i"Poco/Foundation.h"
+i"Poco/Timestamp.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/File_WIN32U.h
+c000000004D2C9F7A0000000000000C2B
+t1294770042
+s3115
+i"Poco/Foundation.h"
+i"Poco/Timestamp.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/File_WINCE.h
+c000000004D2C9F7A0000000000000C2C
+t1294770042
+s3116
+i"Poco/Foundation.h"
+i"Poco/Timestamp.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Foundation.h
+c000000004D5575B800000000000010BE
+t1297446328
+s4286
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/FunctionDelegate.h
+c000000004D2C9F7A00000000000013C8
+t1294770042
+s5064
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Mutex.h
+c000000004D2C9F7C0000000000001D9F
+t1294770044
+s7583
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WINCE.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004D5575B80000000000000AC3
+t1297446328
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004D5575B80000000000000A04
+t1297446328
+s2564
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Mutex_WINCE.h
+c000000004D2C9F7C0000000000000870
+t1294770044
+s2160
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/NotificationStrategy.h
+c000000004D2C9F7C0000000000000B48
+t1294770044
+s2888
+i"Poco/Foundation.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Platform.h
+c000000004D5575B80000000000001AF7
+t1297446328
+s6903
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Platform_POSIX.h
+c000000004D2C9F7C0000000000000843
+t1294770044
+s2115
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Platform_VMS.h
+c000000004D5575B80000000000000BAA
+t1297446328
+s2986
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Platform_WIN32.h
+c000000004D5575B80000000000000DCF
+t1297446328
+s3535
+
+N/Developer/openFrameworks/libs/poco/include/Poco/RefCountedObject.h
+c000000004D2C9F7C0000000000000BB1
+t1294770044
+s2993
+i"Poco/Foundation.h"
+i"Poco/AtomicCounter.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Runnable.h
+c000000004D2C9F7C0000000000000861
+t1294770044
+s2145
+i"Poco/Foundation.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/ScopedLock.h
+c000000004D455E0A0000000000000B7F
+t1296391690
+s2943
+i"Poco/Foundation.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/ScopedUnlock.h
+c000000004D2C9F7C000000000000092B
+t1294770044
+s2347
+i"Poco/Foundation.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/SharedPtr.h
+c000000004D5575B80000000000002278
+t1297446328
+s8824
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/AtomicCounter.h"
+i<algorithm>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/SignalHandler.h
+c000000004D2C9F7C00000000000011EB
+t1294770044
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/SingletonHolder.h
+c000000004D2C9F7C0000000000000A67
+t1294770044
+s2663
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Thread.h
+c000000004D2C9F7C0000000000001E10
+t1294770044
+s7696
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WINCE.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/ThreadPool.h
+c000000004D2C9F7C0000000000001C8A
+t1294770044
+s7306
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Thread_POSIX.h
+c000000004D2C9F7C00000000000013B7
+t1294770044
+s5047
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<limits.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Thread_WIN32.h
+c000000004D5575B80000000000001301
+t1297446328
+s4865
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Thread_WINCE.h
+c000000004D2C9F7C0000000000001276
+t1294770044
+s4726
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Timestamp.h
+c000000004D2C9F7C0000000000001A41
+t1294770044
+s6721
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Developer/openFrameworks/libs/poco/include/Poco/Types.h
+c000000004D5575B80000000000001926
+t1297446328
+s6438
+i"Poco/Foundation.h"
+
+N/Developer/openFrameworks/libs/poco/include/Poco/UnWindows.h
+c000000004D2C9F7C0000000000000FC3
+t1294770044
+s4035
+i<windows.h>
+
+N/Developer/openFrameworks/libs/tess2/include/tesselator.h
+c000000004E0E166A0000000000001C63
+t1309546090
+s7267
+i<TargetConditionals.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/emmintrin.h
+c000000004EB300E0000000000000EAA5
+t1320354016
+s60069
+i<xmmintrin.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/float.h
+c000000004EB300DF0000000000001538
+t1320354015
+s5432
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h
+c000000004EB300E10000000000000D03
+t1320354017
+s3331
+i"syslimits.h"
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/mm_malloc.h
+c000000004EB300E1000000000000093D
+t1320354017
+s2365
+i<stdlib.h>
+i<errno.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/mmintrin.h
+c000000004EB300E000000000000092B1
+t1320354016
+s37553
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/pmmintrin.h
+c000000004EB300E0000000000000155D
+t1320354016
+s5469
+i<xmmintrin.h>
+i<emmintrin.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h
+c000000004EB300DF00000000000010DD
+t1320354015
+s4317
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdbool.h
+c000000004EB300DF0000000000000644
+t1320354015
+s1604
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h
+c000000004EB300E00000000000003197
+t1320354016
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h
+c000000004EB2FFEC0000000000000155
+t1320353772
+s341
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/xmmintrin.h
+c000000004EB300E0000000000000BECA
+t1320354016
+s48842
+i<mmintrin.h>
+i<mm_malloc.h>
+i<emmintrin.h>
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c000000004E8FDD2F000000000001BA20
+t1318051119
+s113184
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004F4DCF6600000000021EB910
+t1330499430
+s35567888
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004E8FDD0E000000000000B750
+t1318051086
+s46928
+
+N/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004DDD56550000000000000477
+t1306351189
+s1143
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F4DCF7D000000000039E5E0
+t1330499453
+s3794400
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E8FDD0F0000000000006530
+t1318051087
+s25904
+
+N/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004E7A9B9600000000000005FE
+t1316658070
+s1534
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E8FDD0F0000000000006560
+t1318051087
+s25952
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004F4DCF7D00000000001195D0
+t1330499453
+s1152464
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004F4DCF79000000000060F9D0
+t1330499449
+s6355408
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004F4DCF7E000000000000B870
+t1330499454
+s47216
+
+N/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004DDD49A70000000000000401
+t1306347943
+s1025
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004F4DCF8B000000000011FDE0
+t1330499467
+s1179104
+
+N/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004E31BCDC00000000000064F9
+t1311882460
+s25849
+
+N/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004E31BCDC0000000000001F41
+t1311882460
+s8001
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004E5454370000000000025633
+t1314149431
+s153139
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004E5454370000000000003F84
+t1314149431
+s16260
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004F4DCF97000000000002E2E0
+t1330499479
+s189152
+
+N/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004E72B6870000000000000659
+t1316140679
+s1625
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004F4DCFA0000000000032B6C0
+t1330499488
+s3323584
+
+N/usr/include/TargetConditionals.h
+c000000004DDD44FB00000000000031E9
+t1306346747
+s12777
+
+N/usr/include/alloca.h
+c000000004E360D4B0000000000000588
+t1312165195
+s1416
+
+N/usr/include/assert.h
+c000000004E360D4B0000000000000F6E
+t1312165195
+s3950
+
+N/usr/include/errno.h
+c000000004E360D4B00000000000003EB
+t1312165195
+s1003
+
+N/usr/include/inttypes.h
+c000000004E360D4B0000000000002674
+t1312165195
+s9844
+
+N/usr/include/libkern/OSAtomic.h
+c000000004E360D4B00000000000077C3
+t1312165195
+s30659
+
+N/usr/include/math.h
+c000000004DDD287300000000000004F1
+t1306339443
+s1265
+
+N/usr/include/pthread.h
+c000000004E360D4D0000000000003CF0
+t1312165197
+s15600
+
+N/usr/include/setjmp.h
+c000000004E360D4B0000000000000438
+t1312165195
+s1080
+
+N/usr/include/stdint.h
+c000000004E360D4B00000000000018EF
+t1312165195
+s6383
+
+N/usr/include/stdio.h
+c000000004E360D4E0000000000004763
+t1312165198
+s18275
+
+N/usr/include/stdlib.h
+c000000004E360D4E00000000000030A7
+t1312165198
+s12455
+
+N/usr/include/string.h
+c000000004E360D4E0000000000001A3A
+t1312165198
+s6714
+
+N/usr/include/sys/_types.h
+c000000004E41FFF40000000000001845
+t1312948212
+s6213
+
+N/usr/include/sys/mman.h
+c000000004E41FFE300000000000020EC
+t1312948195
+s8428
+
+N/usr/include/sys/select.h
+c000000004E41FFE900000000000016A2
+t1312948201
+s5794
+
+N/usr/include/sys/time.h
+c000000004E41FFEE0000000000001E64
+t1312948206
+s7780
+
+N/usr/include/sys/types.h
+c000000004E41FFF00000000000002905
+t1312948208
+s10501
+
+N/usr/include/termios.h
+c000000004E360D4B00000000000004D4
+t1312165195
+s1236
+
+N/usr/include/time.h
+c000000004E360D4E000000000000178E
+t1312165198
+s6030
+
+N/usr/include/unistd.h
+c000000004E360D4E0000000000006662
+t1312165198
+s26210
+
+N/var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h.gch
+t1332354891
+s33316944
+
+N/var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h.gch
+t1332354896
+s40824816
+
+NopenFrameworks-Info.plist
+c000000004E26C9240000000000000277
+t1311164708
+s631
+
+CBuild AST from /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/apps/Flocking/emptyExample/src/Mouse.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/apps/Flocking/emptyExample/src/main.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp
+r0
+
+CBuild AST from /Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4d663423e720b541^ee963423e720b541^---0#1#0#--18"Check dependencies36"83AAF4C0-DA4C-455D-9260-C0ADBD8AB2EC-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Blob.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354477166.928059
+e354477168.328955
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Blob.o
+x/Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.cpp50a6ed6ee420b541^0d375470e420b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.cpp0000000000000000^2193"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Blob.o src/Blob.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/apps/Flocking/emptyExample/src/Blob.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Blob.o36"9042DC42-57D2-44CC-99CC-9F50BF5FB4F3-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Boid.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354476831.322877
+e354476838.830831
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Boid.o
+x/Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.cppfbea521fe320b541^61381f27e320b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.cpp0000000000000000^2193"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Boid.o src/Boid.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/apps/Flocking/emptyExample/src/Boid.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Boid.o36"8B95A746-CD77-478F-AF1F-2E74C4A2CA90-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Mouse.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/Mouse.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354052779.528243
+e354052781.012257
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Mouse.o
+x/Developer/openFrameworks/apps/Flocking/emptyExample/src/Mouse.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/openFrameworks/apps/Flocking/emptyExample/src/Mouse.cppe65787ab6a1ab541^742403ad6a1ab541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/Mouse.cpp0000000000000000^2197"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Mouse.o src/Mouse.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/apps/Flocking/emptyExample/src/Mouse.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Mouse.o36"EA4D335A-10A2-47F9-B9DE-8FFFF5DF6609-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Path.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354052779.528140
+e354052783.930968
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Path.o
+x/Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.cppb24c87ab6a1ab541^9f55eeaf6a1ab541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.cpp0000000000000000^2193"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Path.o src/Path.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/apps/Flocking/emptyExample/src/Path.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/Path.o36"D0565D57-956E-411F-9AF4-DC8B7261969E-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/cameras.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c normal i386 c com.apple.compilers.llvmgcc42
+s354047694.255600
+e354047700.568283
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/cameras.o
+x/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c988a41ce561ab541^ff7a91d4561ab541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c0000000000000000^2206"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/cameras.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c normal i386 c com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h -c /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/cameras.c -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/cameras.o36"21F5CB68-A8DD-481D-87CA-096AAC6EF957-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/core.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c normal i386 c com.apple.compilers.llvmgcc42
+s354047694.255802
+e354047700.492030
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/core.o
+x/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c399841ce561ab541^2eff7dd4561ab541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c0000000000000000^2194"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/core.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c normal i386 c com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h -c /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/core.c -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/core.o36"CA842EA9-1305-4C9A-B20A-6EBA3640D016-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/main.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354476831.322863
+e354476838.605063
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/main.o
+x/Developer/openFrameworks/apps/Flocking/emptyExample/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Developer/openFrameworks/apps/Flocking/emptyExample/src/main.cpp4eef521fe320b541^74281f27e320b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/main.cpp0000000000000000^2193"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/apps/Flocking/emptyExample/src/main.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/main.o36"4A46F502-7A26-402E-B602-FFF06785A524-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvColorImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354047700.543458
+e354047791.658251
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvColorImage.o
+x/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cppd3318bd4561ab541^ba83a82f571ab541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp0000000000000000^2270"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvColorImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvColorImage.o36"2B12B916-981E-497A-A7FC-95B651E74C8C-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvContourFinder.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354047700.569598
+e354047794.275221
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvContourFinder.o
+x/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cppfce391d4561ab541^81774632571ab541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp0000000000000000^2282"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvContourFinder.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvContourFinder.o36"D1E70A06-7600-4528-9D6D-C748CFBF72D1-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvFloatImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354052757.191143
+e354052776.196047
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvFloatImage.o
+x/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp607431956a1ab541^dc2c32a86a1ab541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp0000000000000000^2270"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvFloatImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvFloatImage.o36"40A0EFF8-464F-4577-A568-A8FBD4199FE7-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354052757.191162
+e354052776.196053
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvGrayscaleImage.o
+x/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp927831956a1ab541^653432a86a1ab541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp0000000000000000^2286"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvGrayscaleImage.o36"8D4DCE7E-EF14-4110-80A4-AEF5FF7ABEC9-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvHaarFinder.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354052757.191207
+e354052776.397707
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvHaarFinder.o
+x/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp1d7431956a1ab541^3dd165a86a1ab541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp0000000000000000^2270"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvHaarFinder.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvHaarFinder.o36"99E2DD7E-3DF0-4E05-B562-2427FA33E471-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354052757.193349
+e354052776.397722
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvImage.o
+x/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp8eb133956a1ab541^06da65a86a1ab541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp0000000000000000^2250"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvImage.o36"A0EE6AD6-FA2D-4156-B8CC-FCF90D2E59CC-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvShortImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354052757.193423
+e354052776.196150
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvShortImage.o
+x/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp0bb433956a1ab541^603d32a86a1ab541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp0000000000000000^2270"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvShortImage.o /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxCvShortImage.o36"E9447C7A-C599-4DDD-946E-653DE78427AF-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxKinect.o /Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354052779.527794
+e354052784.118256
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxKinect.o
+x/Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cppf73c87ab6a1ab541^164b21b06a1ab541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp0000000000000000^2246"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxKinect.o /Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/ofxKinect.o36"885F672C-B887-4A86-89E7-149E8C491DE8-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/registration.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c normal i386 c com.apple.compilers.llvmgcc42
+s354047694.255805
+e354047700.541834
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/registration.o
+x/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c689141ce561ab541^fed28ad4561ab541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c0000000000000000^2226"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/registration.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c normal i386 c com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h -c /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/registration.c -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/registration.o36"B4EBC586-8EEA-43D5-AAE4-958F705875B5-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/testApp.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354477859.244993
+e354477860.669105
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/testApp.o
+x/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp: In member function 'virtual void testApp::draw()':
+o/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp:84: warning: name lookup of 'i' changed
+o/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.h:42: warning:   matches this 'testApp::i' under ISO standard rules
+o/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp:75: warning:   matches this 'i' under old rules
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp70d03e23e720b541^944bab24e720b541^-480"/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp: In member function 'virtual void testApp::draw()':/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp:84: warning: name lookup of 'i' changed/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.h:42: warning:   matches this 'testApp::i' under ISO standard rules/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp:75: warning:   matches this 'i' under old rules3(21%IDEActivityLogMessage2@26"Name lookup of 'i' changed-354477860#121#109#-1#-23%DVTTextDocumentLocation3@84"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp0000000000000000^83#18446744073709551615#83#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@50"Matches this 'testApp::i' under ISO standard rules-354477860#230#133#-1#-3@82"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.h0000000000000000^41#18446744073709551615#41#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@32"Matches this 'i' under old rules-354477860#363#117#-1#-3@84"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp0000000000000000^74#18446744073709551615#74#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--0#0#0#-19%DVTDocumentLocation4@84"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp0000000000000000^2205"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/testApp.o src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/apps/Flocking/emptyExample/src/testApp.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/testApp.o36"827FCAB4-C393-4A39-857E-A377B8AB1154-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/tilt.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c normal i386 c com.apple.compilers.llvmgcc42
+s354047694.255820
+e354047700.492042
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/tilt.o
+x/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c2c9b41ce561ab541^aef57dd4561ab541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c0000000000000000^2194"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/tilt.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c normal i386 c com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h -c /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/tilt.c -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/tilt.o36"F5215D9E-2DD2-43AC-8498-9FB3DDD7BA2F-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/totalBlobs.o /Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s354476831.326842
+e354476835.833911
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/totalBlobs.o
+x/Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.cpp94da531fe320b541^ea7bd523e320b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.cpp0000000000000000^2217"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/totalBlobs.o src/totalBlobs.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h -c /Developer/openFrameworks/apps/Flocking/emptyExample/src/totalBlobs.cpp -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/totalBlobs.o36"1002563B-2038-403F-A6A1-E1B5C2309268-
+
+CCompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/usb_libusb10.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c normal i386 c com.apple.compilers.llvmgcc42
+s354047694.255836
+e354047700.495785
+r1
+xCompileC
+xbuild/Flocking.build/Debug/Flocking.build/Objects-normal/i386/usb_libusb10.o
+x/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c2c9b41ce561ab541^3eeb7ed4561ab541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c0000000000000000^2226"CompileC build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/usb_libusb10.o /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c normal i386 c com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h -c /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.c -o /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/usb_libusb10.o36"B26749D3-39B2-4578-B2CC-91758220B9B2-
+
+CLd /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/MacOS/FlockingDebug normal i386
+s354477860.676569
+e354477861.127655
+r1
+xLd
+x/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/MacOS/FlockingDebug
+xnormal
+xi386
+old: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010'
+old: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'
+old: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'
+old: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010'
+old: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'
+old: warning: ignoring file /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010/freenect.lib, file was built for archive which is not the architecture being linked (i386)
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/MacOS/FlockingDebug4e46ad24e720b541^92af2025e720b541^-803"ld: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010'ld: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'ld: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'ld: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010'ld: warning: directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'ld: warning: ignoring file /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010/freenect.lib, file was built for archive which is not the architecture being linked (i386)6(21%IDEActivityLogMessage2@113"Directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010'-354477861#0#127#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@106"Directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'-354477861#127#120#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@106"Directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'-354477861#247#120#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@113"Directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010'-354477861#367#127#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@106"Directory not found for option '-L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs'-354477861#494#120#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@175"Ignoring file /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010/freenect.lib, file was built for archive which is not the architecture being linked (i386)-354477861#614#189#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--2579"Ld bin/FlockingDebug.app/Contents/MacOS/FlockingDebug normal i386    cd /Developer/openFrameworks/apps/Flocking/emptyExample    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L/Developer/openFrameworks/apps/Flocking/emptyExample/bin -L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010 -L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs -L/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx -L/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010 -L/Developer/openFrameworks/addons/ofxKinect/libs/libusb/osx/libs -L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs -L/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx -L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010 -L/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs -L/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx -L/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010 -L/Developer/openFrameworks/addons/ofxKinect/libs/libusb/osx/libs -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -filelist /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/FlockingDebug.LinkFileList -dead_strip ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a ../../../addons/ofxKinect/libs/libusb/osx/libs/usb-1.0.a -framework GLUT /Developer/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit /Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a /Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010/freenect.lib /Developer/openFrameworks/addons/ofxKinect/libs/libusb/osx/libs/usb-1.0.a -o /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/MacOS/FlockingDebug36"31A22D59-336F-4A51-B6D5-245E9FC36392-
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/FlockingDebug.app/Contents/Frameworks/GLUT.framework
+s354052797.179635
+e354052797.307037
+r1
+xPBXCp
+x../../../libs/glut/lib/osx/GLUT.framework
+xbin/FlockingDebug.app/Contents/Frameworks/GLUT.framework
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy bin/FlockingDebug.app/Contents/Frameworks/GLUT.framework35092ebd6a1ab541^d9994ebd6a1ab541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/Frameworks/GLUT.framework00f4947ddfffdf42^467"PBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/FlockingDebug.app/Contents/Frameworks/GLUT.framework    cd /Developer/openFrameworks/apps/Flocking/emptyExample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx/GLUT.framework /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/Frameworks36"D14947D5-336F-42D6-9C5B-3531F19C1820-
+
+CPhaseScriptExecution "Run Script" /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+s354477861.135582
+e354477861.151963
+r1
+xPhaseScriptExecution
+xRun Script
+x/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'5d8a2325e720b541^43e62625e720b541^---0#0#0#--23525"PhaseScriptExecution "Run Script" build/Flocking.build/Debug/Flocking.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv ACTION build    setenv ADDONS_PATH ../../../addons    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Kleeb2    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build    setenv BUILD_ROOT /Developer/openFrameworks/apps/Flocking/emptyExample/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/bin    setenv CACHE_ROOT /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/bin    setenv CONFIGURATION_TEMP_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug    setenv CONTENTS_FOLDER_PATH FlockingDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvmgcc42    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources    setenv DERIVED_FILE_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH FlockingDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Flocking.dst    setenv DWARF_DSYM_FILE_NAME FlockingDebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Developer/openFrameworks/apps/Flocking/emptyExample/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH FlockingDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH FlockingDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME FlockingDebug    setenv EXECUTABLE_PATH FlockingDebug.app/Contents/MacOS/FlockingDebug    setenv FILE_LIST /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH FlockingDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Developer/openFrameworks/apps/Flocking/emptyExample/bin\"  \"/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME FlockingDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtaudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include\" \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\" \"../../../addons/ofxKinect/libs/libusb/osx/include/\" \"../../../addons/ofxOpenCv/libs/opencv/include/\""    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH FlockingDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH FlockingDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Flocking.dst/Users/Kleeb2/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Kleeb2    setenv INSTALL_PATH /Users/Kleeb2/Applications    setenv INSTALL_ROOT /tmp/Flocking.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH FlockingDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Developer/openFrameworks/apps/Flocking/emptyExample/bin\"  \"/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010\" \"/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs\" \"/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx\" \"/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010\" \"/Developer/openFrameworks/addons/ofxKinect/libs/libusb/osx/libs\"           \"/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs\" \"/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx\"                                             \"/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010\" \"/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs\" \"/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx\" \"/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010\" \"/Developer/openFrameworks/addons/ofxKinect/libs/libusb/osx/libs\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libfreenect/lib/vs2010\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 "\"/Developer/of_preRelease_v007_osx/addons/ofxKinect/libs/libusb/osx/libs\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 "\"/Developer/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 "\"/Developer/openFrameworks/addons/ofxKinect/libs/libfreenect/lib/vs2010\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 "\"/Developer/openFrameworks/addons/ofxKinect/libs/libusb/osx/libs\""    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_POCOFOUNDATION "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCONET "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCOUTIL "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCOXML "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal/i386/FlockingDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH FlockingDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11D50d    setenv MAC_OS_X_VERSION_ACTUAL 1073    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0703    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects    setenv OBJECT_FILE_DIR_normal /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Objects-normal    setenv OBJROOT /Developer/openFrameworks/apps/Flocking/emptyExample/build    setenv OFX_KINECT_HEADERS "\"../../../addons/ofxKinect/libs/libusb/osx/include/\""    setenv OFX_KINECT_LIBS "\"../../../addons/ofxKinect/libs/libusb/osx/libs/usb-1.0.a\""    setenv OFX_OPENCV_HEADERS "\"../../../addons/ofxOpenCv/libs/opencv/include/\""    setenv OF_ADDON_HEADERS "\"../../../addons/ofxKinect/libs/libusb/osx/include/\" \"../../../addons/ofxOpenCv/libs/opencv/include/\""    setenv OF_ADDON_LIBS "\"../../../addons/ofxKinect/libs/libusb/osx/libs/usb-1.0.a\""    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../addons/ofxKinect/libs/libusb/osx/libs/usb-1.0.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH FlockingDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c c++"    setenv PKGINFO_FILE_PATH /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/PkgInfo    setenv PKGINFO_PATH FlockingDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4D502    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH FlockingDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH FlockingDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME FlockingDebug    setenv PRODUCT_SETTINGS_PATH /Developer/openFrameworks/apps/Flocking/emptyExample/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Flocking    setenv PROJECT_DERIVED_FILE_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/DerivedSources    setenv PROJECT_DIR /Developer/openFrameworks/apps/Flocking/emptyExample    setenv PROJECT_FILE_PATH /Developer/openFrameworks/apps/Flocking/emptyExample/Flocking.xcodeproj    setenv PROJECT_NAME Flocking    setenv PROJECT_TEMP_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build    setenv PUBLIC_HEADERS_FOLDER_PATH FlockingDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Developer/openFrameworks/apps/Flocking/emptyExample/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH FlockingDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SDK_PRODUCT_BUILD_VERSION 11D50d    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH FlockingDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH FlockingDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Developer/openFrameworks/apps/Flocking/emptyExample    setenv SRCROOT /Developer/openFrameworks/apps/Flocking/emptyExample    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Developer/openFrameworks/apps/Flocking/emptyExample/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME Flocking    setenv TARGET_BUILD_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/bin    setenv TARGET_NAME Flocking    setenv TARGET_TEMP_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build    setenv TEMP_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build    setenv TEMP_FILES_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build    setenv TEMP_FILE_DIR /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build    setenv TEMP_ROOT /Developer/openFrameworks/apps/Flocking/emptyExample/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH FlockingDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER Kleeb2    setenv USER_APPS_DIR /Users/Kleeb2/Applications    setenv USER_LIBRARY_DIR /Users/Kleeb2/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH FlockingDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER Kleeb2    setenv VERSION_INFO_FILE FlockingDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:FlockingDebug  PROJECT:Flocking-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME FlockingDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4D502    setenv XCODE_VERSION_ACTUAL 0421    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"7FB2B202-01DD-42AB-8F21-368ED8BA626A-
+
+CProcessInfoPlistFile /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/Info.plist openFrameworks-Info.plist
+s354047681.271135
+e354047681.325550
+r1
+xProcessInfoPlistFile
+x/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.plista4ff51c1561ab541^bc5953c1561ab541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Developer/openFrameworks/apps/Flocking/emptyExample/openFrameworks-Info.plist0000000000000000^444"ProcessInfoPlistFile bin/FlockingDebug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Developer/openFrameworks/apps/Flocking/emptyExample    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app/Contents/Info.plist36"4408EAED-728D-41F6-A4FE-8176B1343AC3-
+
+CProcessPCH /Users/Kleeb2/Library/Developer/Xcode/DerivedData/Flocking-btswaecihipnkjbddqatzrflyujd/Index/PrecompiledHeaders/Carbon-ewuphacvaafclvcwemndccqrmdri_ast/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c com.apple.compilers.llvmgcc42
+s354047681.334175
+e354047694.248021
+r1
+xProcessPCH
+x/var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h.gch
+x/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/Carbon.framework/Headers/Carbon.hb7ef55c1561ab541^a27e3fce561ab541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0000000000000000^2138"ProcessPCH /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -c /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cstlymftapkldyenaywwexocedim/Carbon.h.gch36"EBB000B2-0F70-4F35-89A0-30E1E87D9840-
+
+CProcessPCH++ /Users/Kleeb2/Library/Developer/Xcode/DerivedData/Flocking-btswaecihipnkjbddqatzrflyujd/Index/PrecompiledHeaders/Carbon-dahnsedqtcmuhlfqkyhfgfjrlcew_ast/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42
+s354047681.334128
+e354047697.500475
+r1
+xProcessPCH++
+x/var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h.gch
+x/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0bf055c1561ab541^861f80d1561ab541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0000000000000000^2194"ProcessPCH++ /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/openFrameworks/apps/Flocking/emptyExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/FlockingDebug.hmap -I/Developer/openFrameworks/apps/Flocking/emptyExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxOpenCv/libs/opencv/include -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources/i386 -I/Developer/openFrameworks/apps/Flocking/emptyExample/build/Flocking.build/Debug/Flocking.build/DerivedSources -F/Developer/openFrameworks/apps/Flocking/emptyExample/bin -F/Developer/openFrameworks/apps/Flocking/emptyExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -c /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gdjwhsoqygemylgelnkbiogeshrn/Carbon.h.gch36"3924A546-10ED-479F-B713-2289B6A5F81C-
+
+CTouch /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app
+s354477861.167724
+e354477861.171654
+r1
+xTouch
+x/Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app51fa2a25e720b541^95f12b25e720b541^---0#0#0#--185"Touch bin/FlockingDebug.app    cd /Developer/openFrameworks/apps/Flocking/emptyExample    /usr/bin/touch -c /Developer/openFrameworks/apps/Flocking/emptyExample/bin/FlockingDebug.app36"31322683-C89B-4B34-9BA2-0CEE3659161D-
+

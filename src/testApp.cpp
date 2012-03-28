@@ -202,7 +202,7 @@ void testApp::newPath() {
     path->addPoint(150, 500);
     path->addPoint(500, 400);
     path->addPoint(1100, 400);
-    path->addPoint(1100, 75);
+    path->addPoint(1100, 100);
     path->addPoint(400, 100);
     path->addPoint(100, 250);
     path->addPoint(0, 0);

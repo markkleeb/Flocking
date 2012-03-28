@@ -13,15 +13,16 @@
 
 Boid::Boid() {
 
-    loc.x = ofRandom(900, 1200);//750;
-	loc.y = ofRandom(600, 800);//690;   
+    loc.x = ofRandom(800, 1000);//750;
+	loc.y = ofRandom(600, 700);//690;   
     
 	acc = 0;
 	
-    r = 5.0;
+    r = 5;
     maxspeed = 5;
     maxforce = ofRandom(0.03, 0.1);
     vel = ofPoint(-maxspeed, 0);
+    //vel = ofPoint(1, maxspeed);
     wandertheta = 0.0;
     objAvoidScalar = 10;
     debug = false;
@@ -42,7 +43,8 @@ void Boid::update() {
     vel += acc;   // Update velocity
     vel.x = ofClamp(vel.x, -maxspeed, maxspeed);  // Limit speed
 	vel.y = ofClamp(vel.y, -maxspeed, maxspeed);  // Limit speed
-   
+    //vel.y = ofClamp(vel.y, 1, maxspeed);
+    
     loc += vel;
     
    // loc.x = ofClamp(loc.x, 0, ofGetWindowWidth());
@@ -88,8 +90,9 @@ void Boid::draw() {
     i.setAnchorPoint(10, 12);
 
     i.draw(0,0);
-    //ofSetColor(255, 20, 147);
-    //ofCircle(0, 0, 4);
+    
+    // ofSetColor(255, 255, 255);
+    //ofCircle(0, 0, r);
     ofPopMatrix();
 	ofDisableAlphaBlending();
     

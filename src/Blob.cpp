@@ -26,10 +26,10 @@ void Blob::setPosition(int x, int y){
     
     
     ofPoint p1, p2, p3, p4;
-    p1.set(centroid.x+20, centroid.y);
-    p2.set(centroid.x, centroid.y+15);
-    p3.set(centroid.x-20, centroid.y);
-    p4.set(centroid.x, centroid.y-15);
+    p1.set(centroid.x+15, centroid.y);
+    p2.set(centroid.x, centroid.y+20);
+    p3.set(centroid.x-15, centroid.y);
+    p4.set(centroid.x, centroid.y-20);
     
     
     
